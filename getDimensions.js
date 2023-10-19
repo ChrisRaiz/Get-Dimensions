@@ -13,7 +13,7 @@ export default Component = () => {
 
    const getDimensions = (event) => {
     const { x, y, height, width } = event.nativeEvent.layout;
-    setDimensions(event.nativeEvent.layout.width);
+    setDimensions(event.nativeEvent.layout);
   };
   
   return(
