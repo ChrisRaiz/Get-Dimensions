@@ -8,6 +8,10 @@
 // dimensions.height
 // dimensions.width
 
+import { useState } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import { Divider } from 'react-native-paper';
+
 export default Component = () => {
   const [dimensions, setDimensions] = useState();
 
